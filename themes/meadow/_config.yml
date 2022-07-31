@@ -1,0 +1,150 @@
+#####
+avatar: 
+favicon: 
+preload: true #字体预加载
+excerpt_length: 300 #自动生成的摘要长度 建议文章中手动使用 <!--more--> 效果更佳  
+tag_page_count: true #Tag页是否计数
+mourn_mode: false #哀悼模式
+
+# 主题颜色
+theme_color:
+  primary: teal 
+  accent: blue
+
+# 搜索
+search:
+  local: true
+  path: /search.xml
+  placeholder: 请输入要查找的关键字
+
+# Google Adsense广告代码
+google_adsense:
+  enabled: false #开启广告
+  auto_ad: false #自动广告
+  page_ad: false  #单页启用广告
+  pub_id: 
+  footer_slot: 
+  sidebar_slot: 
+  banner_slot: 
+
+#####文章#####
+# 文末结束语
+passage_end_tag:
+  enabled: true
+  text: --- 本文结束  The End ---
+  #<i class="iconfont icon-heartbeat" style="font-size:24px;"></i>
+
+# 数学公式渲染
+math:
+  enabled: true
+  engine: mathjax ##可选渲染引擎：mathjax、katex
+  mathjax:
+    cdn: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    mhchem: true  #化学式扩展
+  katex:
+    cdn_css: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css
+    cdn_js: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js
+    auto_render: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js
+
+# mermaid图
+mermaid:
+  enable: true 
+  version: "8.4.8" 
+  startOnload: true  #default true
+  theme: 'forest'    #default, forest, dark, neutral.
+##########
+
+#####侧边栏#####
+# 菜单
+menu:
+  主页: / || icon-home
+  标签: /tags/ || icon-bookmark
+  类别: /categories/ || icon-folder
+  存档: /archives/ || icon-archive 
+  关于: /about/ || icon-user
+  #工具箱: /tools/ || icon-tools
+  #gallery: /categories/图集/ || icon-gallery
+
+# 社交链接
+social:
+  E-Mail: mailto:metallicallex@gmail.com || icon-mail
+  GitHub: https://github.com/MetallicAllex || icon-github
+  Twitter: https://www.twitter.com/MetallicAllex || icon-twitter
+  bilibili(Ⅰ): https://space.bilibili.com/400342138 || icon-bilibili
+  bilibili(Ⅱ): https://space.bilibili.com/34007664 || icon-bilibili
+  #Steam: https://your.url || icon-steam
+  #Weibo: https://your.url || icon-weibo
+  # 此外还预置了以下社交图标，可直接仿照格式进行引用，如需其他图标请自行添加图标库或与我联系
+  # icon-twitter、icon-facebook、icon-vk、icon-stack-overflow、icon-youtube、icon-Instagram、icon-skype
+  # icon-qq、icon-wechat、icon-alipay、icon-paypal、icon-telegram、icon-twitch、icon-discord
+
+#友情链接
+links:
+  纸盒子（经常寄）: https://chiron.meta193.workers.dev/
+  旧版主页（无美化）: /old_mainpage/
+  老K整活（无美化） : /Special_Videos/
+  （旧版）cf节点主页: https://metablog.pages.dev/
+##########
+
+#####页脚#####
+# 页脚
+footer:
+  since: 2019
+  powered: true
+  theme: false
+  beian:
+    enable: true
+    icp: 
+  icon:
+    enabled: false
+    name: icon-heart
+    color: "#d9333f"
+
+# 不蒜子计数
+busuanzi:
+  site: true
+  page: true
+  busuanzi_js: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+##########
+
+#####第三方服务#####
+# 评论
+comment:
+  use: 
+    - gitalk
+    - livere
+  ## Gitalk
+  gitalk_client_id: 
+  gitalk_client_secret: 
+  gitalk_repo: 
+  gitalk_owner: 
+  gitalk_sid_type:
+  gitalk_distractionFreeMode: true
+  ## Disqus
+  disqus_shortname:
+  ## Livere
+  livere_data_uid: 
+  ## Valine
+  valine_leancloud_app_id:
+  valine_leancloud_app_key:
+  valine_placeholder:
+  valine_page_size:
+  valine_avatar:
+  valine_lang:
+  valine_guest_info:
+  valine_notify:
+  valine_verify:
+  ## 畅言
+  changyan_app_id:
+  changyan_app_key:
+  changyan_sid_type:
+
+# 分析
+analytics:
+  google_analytics:
+    tracking_id: 
+    localhost_ignored: true
+  baidu_site_id:
+  cnzz_site_id:
+  tencent_site_id:
+##########
