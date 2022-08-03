@@ -8,6 +8,8 @@ mourn_mode: false #哀悼模式
 
 # 主题颜色
 theme_color:
+  ## primary: var\(--sorairo\)
+  ## accent: var\(--kintya\)
   primary: teal 
   accent: blue
 
@@ -39,12 +41,12 @@ math:
   enabled: true
   engine: mathjax ##可选渲染引擎：mathjax、katex
   mathjax:
-    cdn: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    cdn: https://3905.cf/npm/mathjax@3/es5/tex-mml-chtml.js
     mhchem: true  #化学式扩展
   katex:
-    cdn_css: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css
-    cdn_js: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js
-    auto_render: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js
+    cdn_css: https://3905.cf/npm/katex@0.11.1/dist/katex.min.css
+    cdn_js: https://3905.cf/npm/katex@0.11.1/dist/katex.min.js
+    auto_render: https://3905.cf/npm/katex@0.11.1/dist/contrib/auto-render.min.js
 
 # mermaid图
 mermaid:
@@ -62,8 +64,8 @@ menu:
   类别: /categories/ || icon-folder
   存档: /archives/ || icon-archive 
   关于: /about/ || icon-user
-  #工具箱: /tools/ || icon-tools
-  #gallery: /categories/图集/ || icon-gallery
+  # 工具箱: /tools/ || icon-tools
+  # gallery: /categories/图集/ || icon-gallery
 
 # 社交链接
 social:
@@ -112,32 +114,35 @@ busuanzi:
 comment:
   use: 
     - gitalk
-    - livere
   ## Gitalk
-  gitalk_client_id: 
-  gitalk_client_secret: 
-  gitalk_repo: 
-  gitalk_owner: 
-  gitalk_sid_type:
+  gitalk_client_id: "92feee46b334f860ccf3"
+  gitalk_client_secret: "d5e80a6d7dd07d5f4639be2d05c1665c99547e8f"
+  gitalk_repo: "MetallicAllex.github.io"
+  gitalk_owner: "MetallicAllex"
   gitalk_distractionFreeMode: true
+  # (完全找不到是幹什麽的，先注釋掉) gitalk_sid_type:
+  
   ## Disqus
-  disqus_shortname:
+  ### disqus_shortname:
+  
   ## Livere
-  livere_data_uid: 
+  ### livere_data_uid: 
+  
   ## Valine
-  valine_leancloud_app_id:
-  valine_leancloud_app_key:
-  valine_placeholder:
-  valine_page_size:
-  valine_avatar:
-  valine_lang:
-  valine_guest_info:
-  valine_notify:
-  valine_verify:
+  ### valine_leancloud_app_id:
+  ### valine_leancloud_app_key:
+  ### valine_placeholder:
+  ### valine_page_size:
+  ### valine_avatar:
+  ### valine_lang:
+  ### valine_guest_info:
+  ### valine_notify:
+  ### valine_verify:
+  
   ## 畅言
-  changyan_app_id:
-  changyan_app_key:
-  changyan_sid_type:
+  ### changyan_app_id:
+  ### changyan_app_key:
+  ### changyan_sid_type:
 
 # 分析
 analytics:
